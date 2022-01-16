@@ -23,14 +23,6 @@ def main(player):
             numbers[position - 1] = colored(player, "yellow")
             player = "X"
 
-        validator()
-    
-def validator():
-    if numbers[0] and numbers[1] and numbers[2] in ["X"]:
-        print("X is the winner")
-
-
-
 def writer():
     print(f"|{numbers[0]}|{numbers[1]}|{numbers[2]}|\n|{numbers[3]}|{numbers[4]}|{numbers[5]}|\n|{numbers[6]}|{numbers[7]}|{numbers[8]}|")
 
